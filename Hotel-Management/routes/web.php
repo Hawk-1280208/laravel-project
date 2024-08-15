@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,5 +16,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('master');
+});
+
+
+Route::get('/about', function () {
+    return view('pages.about');
+});
+
+Route::get('/service', function () {
+    return view('pages.service');
+});
+Route::get('/room', function () {
+    return view('pages.room');
+});
+Route::get('/book', function () {
+    return view('pages.book');
 });
 
