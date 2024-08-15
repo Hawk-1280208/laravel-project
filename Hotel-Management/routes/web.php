@@ -56,3 +56,9 @@ Route::get('/contact', function () {
 Route::get('/dash', function () {
     return view('admin-pages.dash');
 });
+Route::get('/view-feedback', function () {
+    return view('pages.view-feedback');
+});
+Route::get('/feedback', function () {
+    return view('pages.feedback');
+});

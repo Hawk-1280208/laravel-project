@@ -178,7 +178,7 @@
                 <div class="card">
                   <div class="card-header">
                     <div class="card-head-row">
-                      <div class="card-title">User Statistics</div>
+                      <div class="card-title">Guest Statistics</div>
                       <div class="card-tools">
                         <a
                           href="#"
@@ -210,7 +210,7 @@
                 <div class="card card-primary">
                   <div class="card-header">
                     <div class="card-head-row">
-                      <div class="card-title">Daily Sales</div>
+                      <div class="card-title">Daily Booking</div>
                       <div class="card-tools">
                         <div class="dropdown">
                           <button
@@ -442,7 +442,7 @@
             </nav>
             <div class="copyright">
               2024, made with <i class="fa fa-heart heart text-danger"></i> by
-              <a href="http://www.themekita.com">ThemeKita</a>
+              <a href="http://www.themekita.com">Shaheen</a>
             </div>
             <div>
               Distributed by

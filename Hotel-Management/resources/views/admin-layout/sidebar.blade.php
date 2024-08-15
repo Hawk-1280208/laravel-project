@@ -1,16 +1,18 @@
- <!-- Sidebar -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/side.css">
+</head>
+<body>
+   <!-- Sidebar -->
  <div class="sidebar sidebar-style-2" data-background-color="dark">
         <div class="sidebar-logo">
           <!-- Logo Header -->
           <div class="logo-header" data-background-color="dark">
-            <a href="index.html" class="logo">
-              <img
-                src="admin-assets/assets/img/kaiadmin/logo_light.svg"
-                alt="navbar brand"
-                class="navbar-brand"
-                height="20"
-              />
-            </a>
+            <h3 class="admin-side-logo">DHAKA HEIGHTS</h3>
             <div class="nav-toggle">
               <button class="btn btn-toggle toggle-sidebar">
                 <i class="gg-menu-right"></i>
@@ -35,114 +37,29 @@
                   class="collapsed"
                   aria-expanded="false"
                 >
-                  <i class="fas fa-home"></i>
+                  <i class="#"></i>
                   <p>Dashboard</p>
-                  <span class="caret"></span>
+                  
                 </a>
-                <div class="collapse" id="dashboard">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="../demo1/index.html">
-                        <span class="sub-item">Dashboard 1</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                
               </li>
-              <li class="nav-section">
-                <span class="sidebar-mini-icon">
-                  <i class="fa fa-ellipsis-h"></i>
-                </span>
-                <h4 class="text-section">Components</h4>
-              </li>
-              <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#base">
-                  <i class="fas fa-layer-group"></i>
-                  <p>Base</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="base">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="components/avatars.html">
-                        <span class="sub-item">Avatars</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/buttons.html">
-                        <span class="sub-item">Buttons</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/gridsystem.html">
-                        <span class="sub-item">Grid System</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/panels.html">
-                        <span class="sub-item">Panels</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/notifications.html">
-                        <span class="sub-item">Notifications</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/sweetalert.html">
-                        <span class="sub-item">Sweet Alert</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/font-awesome-icons.html">
-                        <span class="sub-item">Font Awesome Icons</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/simple-line-icons.html">
-                        <span class="sub-item">Simple Line Icons</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/typography.html">
-                        <span class="sub-item">Typography</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item active submenu">
-                <a data-bs-toggle="collapse" href="#sidebarLayouts">
-                  <i class="fas fa-th-list"></i>
-                  <p>Sidebar Layouts</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse show" id="sidebarLayouts">
-                  <ul class="nav nav-collapse">
-                    <li class="active">
-                      <a href="sidebar-style-2.html">
-                        <span class="sub-item">Sidebar Style 2</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="icon-menu.html">
-                        <span class="sub-item">Icon Menu</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
+             
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#forms">
-                  <i class="fas fa-pen-square"></i>
-                  <p>Forms</p>
+                 
+                  <p>Reservations</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="forms">
                   <ul class="nav nav-collapse">
                     <li>
                       <a href="forms/forms.html">
-                        <span class="sub-item">Basic Form</span>
+                        <span class="sub-item">View Reservation </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="forms/forms.html">
+                        <span class="sub-item">Request </span>
                       </a>
                     </li>
                   </ul>
@@ -150,20 +67,30 @@
               </li>
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#tables">
-                  <i class="fas fa-table"></i>
-                  <p>Tables</p>
+                 
+                  <p>Room Management</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="tables">
                   <ul class="nav nav-collapse">
                     <li>
                       <a href="tables/tables.html">
-                        <span class="sub-item">Basic Table</span>
+                        <span class="sub-item">Room List</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tables/tables.html">
+                        <span class="sub-item">Add New Room</span>
                       </a>
                     </li>
                     <li>
                       <a href="tables/datatables.html">
-                        <span class="sub-item">Datatables</span>
+                        <span class="sub-item">Room Category</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tables/tables.html">
+                        <span class="sub-item">Room Status</span>
                       </a>
                     </li>
                   </ul>
@@ -171,20 +98,20 @@
               </li>
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#maps">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <p>Maps</p>
+                 
+                  <p>Guests Management</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="maps">
                   <ul class="nav nav-collapse">
                     <li>
                       <a href="maps/googlemaps.html">
-                        <span class="sub-item">Google Maps</span>
+                        <span class="sub-item">Guest List</span>
                       </a>
                     </li>
                     <li>
                       <a href="maps/jsvectormap.html">
-                        <span class="sub-item">Jsvectormap</span>
+                        <span class="sub-item">Guest Profiles</span>
                       </a>
                     </li>
                   </ul>
@@ -192,92 +119,117 @@
               </li>
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#charts">
-                  <i class="far fa-chart-bar"></i>
-                  <p>Charts</p>
+                
+                  <p>Billing & Invoicing</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="charts">
                   <ul class="nav nav-collapse">
                     <li>
                       <a href="charts/charts.html">
-                        <span class="sub-item">Chart Js</span>
+                        <span class="sub-item">Invoices</span>
                       </a>
                     </li>
                     <li>
                       <a href="charts/sparkline.html">
-                        <span class="sub-item">Sparkline</span>
+                        <span class="sub-item">Payments</span>
                       </a>
                     </li>
                   </ul>
                 </div>
               </li>
-              <li class="nav-item">
-                <a href="widgets.html">
-                  <i class="fas fa-desktop"></i>
-                  <p>Widgets</p>
-                  <span class="badge badge-success">4</span>
-                </a>
-              </li>
+              
               <li class="nav-item">
                 <a href="../../documentation/index.html">
-                  <i class="fas fa-file"></i>
-                  <p>Documentation</p>
-                  <span class="badge badge-secondary">1</span>
+                 
+                  <p>Guest Feedback</p>
+                  <span class="caret"></span>
                 </a>
               </li>
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#submenu">
-                  <i class="fas fa-bars"></i>
-                  <p>Menu Levels</p>
+                 
+                  <p>Staff Management</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="submenu">
                   <ul class="nav nav-collapse">
                     <li>
                       <a data-bs-toggle="collapse" href="#subnav1">
-                        <span class="sub-item">Level 1</span>
-                        <span class="caret"></span>
+                        <span class="sub-item">Staff List</span>
+                        
                       </a>
-                      <div class="collapse" id="subnav1">
-                        <ul class="nav nav-collapse subnav">
-                          <li>
-                            <a href="#">
-                              <span class="sub-item">Level 2</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <span class="sub-item">Level 2</span>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
+                     
                     </li>
                     <li>
                       <a data-bs-toggle="collapse" href="#subnav2">
-                        <span class="sub-item">Level 1</span>
-                        <span class="caret"></span>
+                        <span class="sub-item">Add New Staff</span>
+                        
                       </a>
-                      <div class="collapse" id="subnav2">
-                        <ul class="nav nav-collapse subnav">
-                          <li>
-                            <a href="#">
-                              <span class="sub-item">Level 2</span>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
+                      
                     </li>
                     <li>
-                      <a href="#">
-                        <span class="sub-item">Level 1</span>
+                      <a data-bs-toggle="collapse" href="#subnav2">
+                        <span class="sub-item">Roles</span>
+                        
                       </a>
+                      
                     </li>
+                    <li>
+                      <a data-bs-toggle="collapse" href="#subnav2">
+                        <span class="sub-item">Shift Management</span>
+                        
+                      </a>
+                      
+                    </li>
+                    
                   </ul>
                 </div>
               </li>
             </ul>
+           <!-- resources/views/layouts/sidebar.blade.php -->
+            <!-- Sidebar -->
+<div class="sidebarr">
+    <ul class="sidebar-menu">
+        <!-- First Dropdown -->
+        <li class="menu-item has-dropdown">
+            <a href="#" class="menu-link">Housekeeping</a>
+            
+            <ul class="dropdown-menu">
+                <li><a href="#">Room Attendent</a></li>
+                <li><a href="#">Public Aria</a></li>
+                <li><a href="#">Laundry</a></li>
+            </ul>
+        </li>
+
+        <!-- Second Dropdown -->
+        <li class="menu-item has-dropdown">
+            <a href="#" class="menu-link">User Management</a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Admin List</a></li>
+                <li><a href="#">Add New Admin</a></li>
+                
+            </ul>
+        </li>
+
+        <!-- Third Dropdown -->
+        <li class="menu-item has-dropdown">
+            <a href="#" class="menu-link">Logout</a>
+
+        </li>
+    </ul>
+</div>
+
+
+
+
           </div>
         </div>
+        
       </div>
+     
+      
       <!-- End Sidebar -->
+
+</body>
+</html>
