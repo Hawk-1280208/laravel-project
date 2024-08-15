@@ -18,6 +18,13 @@ Route::get('/', function () {
     return view('master');
 });
 
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+
+
+
 
 Route::get('/about', function () {
     return view('pages.about');
@@ -32,4 +39,20 @@ Route::get('/room', function () {
 Route::get('/book', function () {
     return view('pages.book');
 });
+Route::get('/home', function () {
+    return view('pages.home');
+});
 
+Route::get('/team', function () {
+    return view('pages.team');
+});
+Route::get('/testimonial', function () {
+    return view('pages.testimonial');
+});
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
+Route::get('/dash', function () {
+    return view('admin-pages.dash');
+});
