@@ -105,7 +105,7 @@
                 <div class="collapse" id="maps">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="maps/googlemaps.html">
+                      <a href="{{ url('/booked-view') }}">
                         <span class="sub-item">Guest List</span>
                       </a>
                     </li>

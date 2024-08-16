@@ -1,6 +1,9 @@
 <?php
 
+
+
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BookingController;
 
 
 /*
@@ -36,9 +39,7 @@ Route::get('/service', function () {
 Route::get('/room', function () {
     return view('pages.room');
 });
-Route::get('/book', function () {
-    return view('pages.book');
-});
+
 Route::get('/home', function () {
     return view('pages.home');
 });
@@ -62,3 +63,16 @@ Route::get('/view-feedback', function () {
 Route::get('/feedback', function () {
     return view('pages.feedback');
 });
+Route::get('/book', function () {
+    return view('pages.book');
+});
+
+Route::get('/booked-view', function () {
+    return view('admin-pages.booked-view');
+});
+
+
+
+
+Route::post('/bookings', [BookingController::class, 'store'])->name('bookings.store');
+
