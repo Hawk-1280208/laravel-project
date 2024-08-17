@@ -37,6 +37,7 @@
     <div class="container-xxl bg-white p-0">
 
     @include('layout.navbar')
+    
 
      @yield('content')
     
