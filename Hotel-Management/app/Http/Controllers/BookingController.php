@@ -9,10 +9,7 @@ use Illuminate\Http\Request;
 
 class BookingController extends Controller
 {
-    public function index() {
-        $bookings = Booking::all();
-        return view('view', compact('bookings'));
-    }
+    
     
     public function create() {
         return view('create');
@@ -30,13 +27,19 @@ class BookingController extends Controller
         $book->adults = $request->adults;
         $book->children = $request->children;
         $book->room = $request->room;
-        $book->special_request = $request->special_request;
+       
         
     
       $book->save();
       return redirect::to('/home')->with('success','your post has been booked!');
     }
-    
+
+
+    public function show()
+    {    
+        $bookings = Booking::all(); 
+        return view('admin-pages.booked-view', compact('bookings')); 
+    }
 }
 
 

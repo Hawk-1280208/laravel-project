@@ -18,6 +18,10 @@ use App\Http\Controllers\BookingController;
 */
 
 Route::get('/', function () {
+    return view('pages.home');
+});
+
+Route::get('/master', function () {
     return view('master');
 });
 
@@ -71,8 +75,15 @@ Route::get('/booked-view', function () {
     return view('admin-pages.booked-view');
 });
 
+Route::get('/dashboard', function () {
+    return view('admin-pages.dashboard');
+});
+
 
 
 
 Route::post('/bookings', [BookingController::class, 'store'])->name('bookings.store');
+
+Route::get('/admin-pages.booked-view', [BookingController::class, 'show'])->name('booked-view');
+
 

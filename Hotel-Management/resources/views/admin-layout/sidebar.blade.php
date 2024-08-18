@@ -31,16 +31,7 @@
           <div class="sidebar-content">
             <ul class="nav nav-secondary">
               <li class="nav-item">
-                <a
-                  data-bs-toggle="collapse"
-                  href="#dashboard"
-                  class="collapsed"
-                  aria-expanded="false"
-                >
-                  <i class="#"></i>
-                  <p>Dashboard</p>
-                  
-                </a>
+                <a href="{{ url('/dashboard') }}"><h3>Dashboard</h3></a>
                 
               </li>
              

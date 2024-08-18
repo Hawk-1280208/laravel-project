@@ -140,20 +140,13 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <select class="form-select" name="room" id="select3">
-                                              <option value="1">Room 1</option>
-                                              <option value="2">Room 2</option>
-                                              <option value="3">Room 3</option>
-                                            </select>
-                                            <label for="select3">Select A Room</label>
-                                          </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Special Request" name="special_request" id="message" style="height: 100px"></textarea>
-                                            <label for="message">Special Request</label>
+                                            <input type="text" class="form-control" name="room"  id="room" placeholder="Your Name">
+                                            <label for="name">Room No.</label>
+
+                                            
                                         </div>
                                     </div>
+                                   
                                     <div class="col-12">
                                         <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
                                     </div>

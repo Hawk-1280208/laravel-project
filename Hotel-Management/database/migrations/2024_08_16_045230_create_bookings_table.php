@@ -22,8 +22,8 @@ return new class extends Migration
             $table->integer('adults');
             $table->integer('children');
             $table->integer('room');
-            $table->text('special_request')->nullable();
-            $table->timestamps();
+           
+           
         });
     }
 
