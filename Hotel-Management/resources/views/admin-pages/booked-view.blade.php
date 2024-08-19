@@ -5,7 +5,7 @@
   <!--for demo wrap-->
   <h1>Fixed Table header</h1>
   <div class="tbl-header">
-  @if(isset($bookings) && $bookings->count() > 0)
+  
     <table cellpadding="0" cellspacing="0" border="0">
       <thead>
         <tr>
@@ -25,25 +25,47 @@
   <div class="tbl-content">
     <table cellpadding="0" cellspacing="0" border="0">
       <tbody>
-      @foreach( $bookings as $booking)
+     
         <tr>
 
-          <td>{{$booking->id}}</td>
-          <td>{{$booking->name}}</td>
-          <td>{{$booking->email}}</td>
-          <td>{{$booking->checkin}}</td>
-          <td>{{$booking->checkout}}</td>
-		      <td>{{$booking->adults}}</td>
-		      <td>{{$booking->children}}</td>
-		      <td>{{$booking->room}}</td>
+          <td>1</td>
+          <td>md Shaheen</td>
+          <td>shaheen@gmail.com</td>
+          <td>08/22/2024</td>
+          <td>08/24/2024</td>
+		      <td>2</td>
+		      <td>1</td>
+		      <td>202</td>
 		      
         </tr>
-        @endforeach
+        <tr>
+
+         <td>1</td>
+         <td>md Shaheen</td>
+         <td>shaheen@gmail.com</td>
+         <td>08/22/2024</td>
+         <td>08/24/2024</td>
+         <td>2</td>
+         <td>1</td>
+         <td>202</td>
+
+        </tr>
+        <tr>
+
+        <td>1</td>
+        <td>md Shaheen</td>
+        <td>shaheen@gmail.com</td>
+        <td>08/22/2024</td>
+        <td>08/24/2024</td>
+        <td>2</td>
+        <td>1</td>
+        <td>202</td>
+
+        </tr>
+       
 		  </tbody>
     </table>
-    @else
-    <p>কোন বুকিংস পাওয়া যায়নি।</p>
-@endif
+   
   </div>
 </section>
 @endsection

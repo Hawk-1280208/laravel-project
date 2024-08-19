@@ -65,7 +65,7 @@
                 <div class="collapse" id="tables">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="tables/tables.html">
+                      <a href="{{ url('/room-list') }}">
                         <span class="sub-item">Room List</span>
                       </a>
                     </li>
@@ -146,7 +146,7 @@
                 <div class="collapse" id="submenu">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a data-bs-toggle="collapse" href="#subnav1">
+                      <a href="{{ url('/staff-list') }}">
                         <span class="sub-item">Staff List</span>
                         
                       </a>
@@ -205,7 +205,7 @@
 
         <!-- Third Dropdown -->
         <li class="menu-item has-dropdown">
-            <a href="#" class="menu-link">Logout</a>
+            <a href="{{ url('/home') }}" class="menu-link">Logout</a>
 
         </li>
     </ul>

@@ -15,6 +15,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin-bottom: 10%;
+    min-height: 100vh;
 }
 
 .feedback-form h2 {

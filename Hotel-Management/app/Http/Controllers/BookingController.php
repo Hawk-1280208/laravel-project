@@ -35,11 +35,7 @@ class BookingController extends Controller
     }
 
 
-    public function show()
-    {    
-        $bookings = Booking::all(); 
-        return view('admin-pages.booked-view', compact('bookings')); 
-    }
+   
 }
 
 

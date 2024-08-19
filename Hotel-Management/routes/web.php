@@ -70,6 +70,10 @@ Route::get('/feedback', function () {
 Route::get('/book', function () {
     return view('pages.book');
 });
+/*Route::get('/loginn', function () {
+    return view('pages.loginn');
+});*/
+
 
 Route::get('/booked-view', function () {
     return view('admin-pages.booked-view');
@@ -78,12 +82,17 @@ Route::get('/booked-view', function () {
 Route::get('/dashboard', function () {
     return view('admin-pages.dashboard');
 });
-
+Route::get('/staff-list', function () {
+    return view('admin-pages.staff-list');
+});
+Route::get('/room-list', function () {
+    return view('admin-pages.room-list');
+});
 
 
 
 Route::post('/bookings', [BookingController::class, 'store'])->name('bookings.store');
 
-Route::get('/admin-pages.booked-view', [BookingController::class, 'show'])->name('booked-view');
+
 
 
